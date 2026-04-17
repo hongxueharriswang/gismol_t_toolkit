@@ -2,7 +2,7 @@
 
 # GISMOL – General Intelligent System Modelling Language
 
-**GISMOL** is a Python implementation of **Constrained Object Hierarchies (COH)** – a neuroscience‑grounded, mathematically rigorous framework for building intelligent systems. GISMOL unifies hierarchical composition, adaptive learning, and constraint‑driven behaviour into a single, coherent toolkit.
+**GISMOL** is a Python implementation of **Constrained Object Hierarchies (COH)** – a neuroscience‑grounded, mathematically rigorous framework for building intelligent systems. GISMOL unifies hierarchical composition, adaptive learning, and constraint‑driven behaviour into a single, coherent toolkit. This implementation is based on a tree‑structured architecture supporting multi‑level modularity.
 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://python.org)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
