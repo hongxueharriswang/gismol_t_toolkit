@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gismol"
+version = "1.0.0"
+description = "General Intelligent System Modelling Language – COH implementation"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Harris Wang", email = "harrisw@athabascau.ca"}
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+dependencies = [
+    "numpy>=1.19.0"
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=6.0", "black>=22.0", "isort>=5.0", "pre-commit>=2.0"]
+neural = ["torch>=1.9.0"]
+nlp = ["sentence-transformers>=2.0"]
+all = ["torch>=1.9.0", "sentence-transformers>=2.0"]
+
+[project.urls]
+Homepage = "https://github.com/your-username/gismol"
+Repository = "https://github.com/your-username/gismol.git"
+Documentation = "https://github.com/your-username/gismol#readme"
+
+[tool.black]
+line-length = 100
+target-version = ['py38', 'py39', 'py310', 'py311']
+
+[tool.isort]
+profile = "black"
+line_length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
