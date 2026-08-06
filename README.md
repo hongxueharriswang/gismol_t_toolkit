@@ -53,7 +53,7 @@ GISMOL is designed to provide ready‑to‑use classes and tools to implement ev
 ### From source (recommended)
 
 ```bash
-git clone https://github.com/your-username/gismol.git
+git clone https://github.com/hongxueharriswang/gismol_t_toolkit.git
 cd gismol
 pip install -e .
 ```
