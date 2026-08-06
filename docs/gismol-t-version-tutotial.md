@@ -1,4 +1,4 @@
-# A Developer’s Guide to COH and GISMOL: Modeling and Implementing Intelligent Systems
+# A Developer’s Guide: Modeling and Implementing Intelligent Systems with COH and GISMOL
 
 ## Table of Contents
 
